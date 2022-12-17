@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,50%), rgba(0,0,0,50%)), url(header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px green;
+    background: white;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+section nav .logo {
+    font-size: 36px;
+    margin: 8px 0;
+    color: green;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section nav .logo a {
+    font-size: 36px;
+    margin: 8px 0;
+    color: green;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section nav ul{
+    list-style: none;
+}
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+section nav li a{
+    text-decoration: none;
+    color: black;
+}
+section nav li a:hover{
+    color: green;
+}
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+}
+section .main .main_img{
+    width: 580px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+section .main h1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    color: white;
+    top: 80px;
+    left: 25px;
+}
+section .main h1 span{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+section .main p{
+    width: 650px;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+section .main .main_tag .main_btn{
+    background: green;
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    background: white;
+}
+footer .footer_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_main .tag {
+    margin: 10px 0;
+}
+footer .footer_main .tag img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+footer .footer_main .tag p {
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: black;
+}
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin:  10px 0;
+}
+footer .footer_main .tag i {
+    margin-right: 10px;
+}
+footer .footer_main .tag .social_link i{
+    margin: 0 5px;
+}
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: white;
+    border-radius: 25px;
+}
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: green;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+}
+footer .end span{
+    color: green;
+    margin-left: 10px;
+}
